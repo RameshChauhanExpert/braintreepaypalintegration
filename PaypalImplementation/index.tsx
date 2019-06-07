@@ -3,4 +3,7 @@ import { render } from "react-dom";
 import { Paypal } from "./Paypal";
 import "./style.css";
 
-render(<Paypal/>,document.getElementById("root"));
+render( // just render .. paypal  component .
+    <Paypal />,
+    document.getElementById("root")
+);
