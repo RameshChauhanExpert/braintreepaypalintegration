@@ -1,23 +1,8 @@
 {
-    "name": "react-paypal-button-v2",
+    "name": "Braintreepaypalintegration",
     "version": "2.3.1",
-    "description": "An easy and simple to use React button component to implement PayPal's Checkout with Smart Payment Buttons V2 (Version 2).",
-    "keywords": [
-        "react-paypal-button-v2",
-        "react",
-        "component",
-        "paypal",
-        "paypal smart buttons",
-        "paypal smart payment buttons",
-        "v2",
-        "version 2",
-        "checkout",
-        "paypal-checkout",
-        "react-paypal",
-        "react-component",
-        "checkout-buttons",
-        "paypal buttons"
-    ],
+    "description": "Braintree paypal integration",
+   
     
     "author": {
         "name": "Ramesh Chauhan",
