@@ -18,19 +18,13 @@
         "checkout-buttons",
         "paypal buttons"
     ],
-    "homepage": "https://github.com/Luehang/react-paypal-button-v2",
+    
     "author": {
-        "name": "Lue Hang",
-        "email": "lue_hang@hotmail.com",
-        "url": "https://www.luehangs.site"
+        "name": "Ramesh Chauhan",
+        "email": "rameshvikaschouhan@gmail.com",
+        "url": "www.sakshamesolution.com"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Luehang/react-paypal-button-v2"
-    },
-    "bugs": {
-        "url": "https://github.com/Luehang/react-paypal-button-v2/issues"
-    },
+    
     "directories": {
         "PaypalImplementation": "./PaypalImplementation",
         "lib": "./lib",
@@ -97,12 +91,10 @@
         "build:types": "tsc --emitDeclarationOnly",
         "build:js": "webpack-dev-server --config ./PaypalImplementation/webpack.config.js --mode development --open --hot",
         "build:bundle": "webpack-cli --config ./webpack.config.js --mode production",
-        "start": "webpack-dev-server --config ./PaypalImplementation/webpack.config.js --mode development --open --hot",
         "lint": "./node_modules/.bin/eslint src/ PaypalImplementation/",
         "test": "jest --watchAll",
         "test:once": "jest",
         "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
         "preinstall": "rm -rf dist"
-    },
-    "license": "MIT"
+    }
 }
